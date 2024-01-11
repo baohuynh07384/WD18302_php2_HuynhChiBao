@@ -1,0 +1,15 @@
+{
+    "name": "php2/oop",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "baohuynh07384",
+            "email": "139252659+baohuynh07384@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
