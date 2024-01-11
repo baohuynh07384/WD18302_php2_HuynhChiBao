@@ -3,9 +3,8 @@
 namespace App\Controller;
 
 class BaseController{
-    public $x = "BaseController";
-    
-    function get(){
-        echo $this->x;
+    public $mess = "at class BasController <br>";
+    public function function (){
+        echo " this is the function ";
     }
 }

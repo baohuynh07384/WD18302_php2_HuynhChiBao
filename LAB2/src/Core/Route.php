@@ -3,7 +3,7 @@
 namespace App\Core;
 
 class Route{
-    function __construct(){
-        echo"Route";
+    public function function(){
+        echo" this is the function at Route <br>";
     }
 }

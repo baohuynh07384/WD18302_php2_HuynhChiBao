@@ -3,7 +3,11 @@
 namespace App\Model;
 
 class BaseModel{
-    function __construct(){
-        echo "BaseModel";
+   
+    private $mess = " BaseModel là cha của Category, Product";
+
+    function get(){
+        return $this->mess;
     }
+
 }
